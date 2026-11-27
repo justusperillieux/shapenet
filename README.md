@@ -1,6 +1,6 @@
 # shapenet
 
-[![Build Status](https://travis-ci.com/justusschock/shapenet.svg?token=GsT2RFaJJMxpqLAN3xuh&branch=master)](https://travis-ci.com/justusschock/shapenet) [![Documentation Status](https://readthedocs.org/projects/shapenet/badge/?version=latest)](https://shapenet.readthedocs.io/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/shapenet.svg)](https://badge.fury.io/py/shapenet) [![codecov](https://codecov.io/gh/justusschock/shapenet/branch/master/graph/badge.svg?token=gpwVgQjw18)](https://codecov.io/gh/justusschock/shapenet) ![LICENSE](https://img.shields.io/github/license/justusschock/shapedata.svg)
+[![Build Status](https://travis-ci.com/justusperillieux/shapenet.svg?token=GsT2RFaJJMxpqLAN3xuh&branch=master)](https://travis-ci.com/justusperillieux/shapenet) [![Documentation Status](https://readthedocs.org/projects/shapenet/badge/?version=latest)](https://shapenet.readthedocs.io/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/shapenet.svg)](https://badge.fury.io/py/shapenet) [![codecov](https://codecov.io/gh/justusperillieux/shapenet/branch/master/graph/badge.svg?token=gpwVgQjw18)](https://codecov.io/gh/justusperillieux/shapenet) ![LICENSE](https://img.shields.io/github/license/justusperillieux/shapedata.svg)
 
 This repository contains the [PyTorch](https://pytorch.org) implementation of [our Paper "SUPER-REALTIME FACIAL LANDMARK DETECTION AND SHAPE FITTING BY DEEP REGRESSION OF SHAPE MODEL PARAMETERS"](#our-paper).
 
@@ -19,7 +19,7 @@ This repository contains the [PyTorch](https://pytorch.org) implementation of [o
 `pip install shapenet`
 
 ### From Source:
-`pip install git+https://github.com/justusschock/shapenet` 
+`pip install git+https://github.com/justusperillieux/shapenet` 
 
 ## Demo
 Demonstration Videos comparing our method to [`dlib`](https://dlib.net) can be found [here as overlay](https://drive.google.com/open?id=1hLaNuWy8eC3xs9qcTRzVZfBjdlB7xZ8c) and [here as side-by-side view](https://drive.google.com/file/d/128ZnFSOAhKnhN7xpgi6FR5KircnwIxca/view?usp=sharing)
@@ -45,7 +45,7 @@ To get a list of the necessary and accepted arguments, run the script with the `
 * `export_to_jit`: Traces the given model and saves it as jit-ScriptModule, which can be accessed via Python and C++
 
 ### From Python
-This implementation uses the [`delira`-Framework](https://github.com/justusschock/delira) for training and validation handling. It supports mixed precision training and inference via [NVIDIA/APEX](https://github.com/NVIDIA/apex) (must be installed separately). The data-handling is outsourced to [shapedata](https://github.com/justusschock/shapedata).
+This implementation uses the [`delira`-Framework](https://github.com/justusschock/delira) for training and validation handling. It supports mixed precision training and inference via [NVIDIA/APEX](https://github.com/NVIDIA/apex) (must be installed separately). The data-handling is outsourced to [shapedata](https://github.com/justusperillieux/shapedata).
 
 The following gives a short overview about the packages and classes.
 

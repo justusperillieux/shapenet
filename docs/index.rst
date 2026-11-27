@@ -15,7 +15,7 @@ shapenet
 
    _api/_build/shapenet/shapenet
 
-   GitHub <https://github.com/justusschock/shapenet>
+   GitHub <https://github.com/justusperillieux/shapenet>
 
 
 
